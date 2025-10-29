@@ -111,6 +111,8 @@ void tick()
     {
       if (snake[0][0] == snake[i][0] && snake[0][1] == snake[i][1])
       {
+        M5Cardputer.Display.drawCenterString("Game Over! Restarting...", M5Cardputer.Display.width() / 2, M5Cardputer.Display.height() / 2);
+        delay(3000);
         resetGame();
         return;
       }
