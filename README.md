@@ -79,6 +79,12 @@ Built using:
 - **IDE**: PlatformIO
 - **Graphics**: M5Canvas for efficient sprite rendering
 
+## Arduino IDE
+
+Old Arduino IDE code is also available via `cardputer_snake` folder.
+Required `M5Cardputer` Library as well. 
+It is not guarantee to be updated as the lastest as the PlatformIO version.
+
 ## License
 
 This project is open source. Feel free to modify and distribute.
